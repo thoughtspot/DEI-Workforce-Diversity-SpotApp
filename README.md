@@ -104,5 +104,16 @@ After you have downloaded the Zip file and verified its contents, follow these s
 For detailed instructions on how to import TML files, refer to the [ThoughtSpot documentation](https://docs.thoughtspot.com/software/latest/tml-import-export-multiple).
 
 
+## After you deploy the DEI Workforce Diversity SpotApp
+After you deploy the DEI Workforce Diversity SpotApp, you must update the formulas in the Worksheet the SpotApp created with your specific information. Your department names may not match the exact names used in the formula for Functional Groups, for example, so you must replace the names in the formula with your own department names.
+
+You must update the following formulas in the Employee Data Worksheet in ThoughtSpot:
+- Employee Count(Full Time Employee)
+- Functional Groups
+- Level Buckets
+- Level Groups
+
+
+
 
 
